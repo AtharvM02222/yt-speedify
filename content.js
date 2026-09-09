@@ -1,3 +1,5 @@
 chrome.runtime.onMessage.addListener((message) => {
-  document.querySelector('video').playbackRate = message.rate;
+  const video = document.querySelector('video');
+  if (!video) return;
+  video.playbackRate = message.rate;
 });
