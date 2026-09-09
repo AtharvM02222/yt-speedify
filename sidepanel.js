@@ -96,3 +96,5 @@ ninja.data = [
 ];
 
 ninja.open();
+
+ninja.addEventListener('close', () => ninja.open());
