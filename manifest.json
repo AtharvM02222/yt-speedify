@@ -23,7 +23,4 @@
     }
   ],
 
-  "content_security_policy": {
-    "extension_pages": "script-src 'self' https://unpkg.com; object-src 'self'"
-  }
 }
